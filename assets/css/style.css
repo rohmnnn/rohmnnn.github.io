@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 75px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px 0px;
+}
+
+.menu {
+    padding: 12px 0px;
+}
+
+.menu>a {
+    font-size: 16px;
+    padding: 0px 48px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu>a:hover {
+    color: black;
+}
+
+.active {
+    /* font-weight: bold; */
+    font-weight: 700;
+}
+
+.icon-search {
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.kiri {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.kanan {
+    width: 100%;
+}
+
+.image-hero {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.text-heading {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+}
+
+.deskripsi {
+    margin-top: 24px;
+    margin-bottom: 56px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hire-me {
+    margin-top: 24px;
+    padding: 12px;
+    font-size: 18px;
+    line-height: 28px;
+    background-color: black;
+    color: white;
+}
