@@ -86,3 +86,16 @@ nav {
     background-color: black;
     color: white;
 }
+
+.icon-sosmed {
+    display: none;
+    margin-top: 32px;
+}
+
+.icon-sosmed > a {
+    padding-right: 38px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 42px;
+}
